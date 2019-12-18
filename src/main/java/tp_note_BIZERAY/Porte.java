@@ -26,18 +26,12 @@ public class Porte {
 
 	@Override
 	public boolean equals(Object obj) {
-		if (this == obj)
-			return true;
-		if (obj == null)
-			return false;
-		if (getClass() != obj.getClass())
-			return false;
+		
 		Porte other = (Porte) obj;
-		if (numeroDePorte == null) {
+		if ((numeroDePorte == null) || (!numeroDePorte.equals(other.numeroDePorte))) {
 			if (other.numeroDePorte != null)
 				return false;
-		} else if (!numeroDePorte.equals(other.numeroDePorte))
-			return false;
+		} 
 		return true;
 	}
 

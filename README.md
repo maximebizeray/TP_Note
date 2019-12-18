@@ -1,3 +1,9 @@
 # TP_Note
 
-![alt text](https://github.com/maximebizeray/TP_Note.git/origin/screenCodeClimate.png)
+Avant modification : 
+
+![Screenshot](screenCodeClimate.png)
+
+Apres Modification :
+
+![Screenshot](ScreenCodeClimate2.png)
